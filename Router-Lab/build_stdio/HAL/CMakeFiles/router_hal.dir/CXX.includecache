@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../HAL/include/router_hal.h
+stdint.h
+-
+stdlib.h
+-
+arpa/inet.h
+-
+arpa/inet.h
+-
+arpa/inet.h
+-
+
+/home/pi/Router-Lab/HAL/src/stdio/router_hal.cpp
+router_hal.h
+/home/pi/Router-Lab/HAL/src/stdio/router_hal.h
+stdio.h
+-
+map
+-
+pcap.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+utility
+-
+
