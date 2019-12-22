@@ -369,12 +369,12 @@ int main(int argc, char *argv[])
 								}
 							}
 						}
-						printf("RoutingTable:\n");
-						for (int i = 0; i < RoutingTable.size(); i++)
-						{
-							RoutingTableEntry tmp = RoutingTable[i];
-							printf("addr: %x , len: %u , if_index: %u , nexthop: %x , metric: %u\n", tmp.addr, tmp.len, tmp.if_index, tmp.nexthop, BigToSmallEndien(tmp.metric));
-						}
+						//printf("RoutingTable:\n");
+						//for (int i = 0; i < RoutingTable.size(); i++)
+						//{
+						//	RoutingTableEntry tmp = RoutingTable[i];
+						//	printf("addr: %x , len: %u , if_index: %u , nexthop: %x , metric: %u\n", tmp.addr, tmp.len, tmp.if_index, tmp.nexthop, BigToSmallEndien(tmp.metric));
+						//}
 						//MY CODE END.................................................................................................
 						// TODO: fill resp
 						// assemble
@@ -500,12 +500,12 @@ int main(int argc, char *argv[])
 
 					}
 
-					printf("RoutingTable:\n");
-					for (int i = 0; i < RoutingTable.size(); i++)
-					{
-						RoutingTableEntry tmp = RoutingTable[i];
-						printf("addr: %x , len: %u , if_index: %u , nexthop: %x , metric: %u\n", tmp.addr, tmp.len, tmp.if_index, tmp.nexthop, BigToSmallEndien(tmp.metric));
-					}
+					//printf("RoutingTable:\n");
+					//for (int i = 0; i < RoutingTable.size(); i++)
+					//{
+					//	RoutingTableEntry tmp = RoutingTable[i];
+					//	printf("addr: %x , len: %u , if_index: %u , nexthop: %x , metric: %u\n", tmp.addr, tmp.len, tmp.if_index, tmp.nexthop, BigToSmallEndien(tmp.metric));
+					//}
 
 					if (updated)
 					{
@@ -587,12 +587,12 @@ int main(int argc, char *argv[])
 							//MAC?????TODO
 						}
 					}
-					printf("RoutingTable:\n");
-					for (int i = 0; i < RoutingTable.size(); i++)
-					{
-						RoutingTableEntry tmp = RoutingTable[i];
-						printf("addr: %x , len: %u , if_index: %u , nexthop: %x , metric: %u\n", tmp.addr, tmp.len, tmp.if_index, tmp.nexthop, BigToSmallEndien(tmp.metric));
-					}
+					//printf("RoutingTable:\n");
+					//for (int i = 0; i < RoutingTable.size(); i++)
+					//{
+					//	RoutingTableEntry tmp = RoutingTable[i];
+					//	printf("addr: %x , len: %u , if_index: %u , nexthop: %x , metric: %u\n", tmp.addr, tmp.len, tmp.if_index, tmp.nexthop, BigToSmallEndien(tmp.metric));
+					//}
 
 					//MY CODE END.....................................................................
 
