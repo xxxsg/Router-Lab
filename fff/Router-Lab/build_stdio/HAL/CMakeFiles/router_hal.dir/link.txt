@@ -1,2 +1,0 @@
-/usr/bin/ar qc librouter_hal.a  CMakeFiles/router_hal.dir/src/stdio/router_hal.cpp.o
-/usr/bin/ranlib librouter_hal.a
