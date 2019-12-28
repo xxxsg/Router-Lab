@@ -14,22 +14,6 @@ vncserver -geometry 1920x1080
 
 192.168.137.
 
-systemctl disable --now bird
-
-route print
-
-route add 192.168.5.0 mask 255.255.255.0 192.168.0.1
-
-route -p add 192.168.1.0 mask 255.255.255.0 10.231.3.1
-
- route delete 192.168.5.0
-
-
-
-lscd ./temshark......
-
-sudo ./termshark -i=eth1
-
 
 
 ```c++
